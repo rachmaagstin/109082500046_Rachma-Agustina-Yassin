@@ -34,7 +34,7 @@ var (
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin/blob/main/output/output-no1.png)
+![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin/blob/main/modul2/output/output-no1.png)
 Program tersebut digunakan untuk menerima tiga input string dari pengguna, kemudian menampilkan urutan nilai sebelum dan sesudah dilakukan pertukaran. Nilai dari variabel satu, dua, dan tiga ditukar menggunakan variabel sementara temp. Proses pertukaran nilai variabel dengan cara memindahkan nilai variabel satu ke variabel temp, kemudian nilai variabel dua dipindahkan ke variabel satu, nilai variabel tiga dipindahkan ke variabel dua, dan nilai variabel yang disimpan di variabel temp dipindahkan ke variabel tiga. Proses ini menghasilkan perubahan urutan secara rotasi, sehingga nilai yang awalnya pertama menjadi terakhir. Program kemudian menampilkan hasil akhir setelah pertukaran nilai dilakukan.
 
 ### 2. Siswa kelas IPA di salah satu sekolah menengah atas di Indonesia sedang mengadakan praktikum kimia. Di setiap percobaan akan menggunakan 4 tabung reaksi, yang mana susunan warna cairan di setiap tabung akan menentukan hasil percobaan. Siswa diminta untuk mencatat hasil percobaan tersebut. Percobaan dikatakan berhasil apabila susunan warna zat cair pada gelas 1 hingga gelas 4 secara berturutan adalah "merah", "kuning", "hijau", dan "ungu" selama 5 kali percobaan berulang. Buatlah sebuah program yang menerima input berupa warna dari ke 4 gelas reaksi sebanyak 5 kali percobaan. Kemudian program akan menampilkan true apabila urutan warna sesuai dengan informasi yang diberikan pada paragraf sebelumnya, dan false untuk urutan warna lainnya.
@@ -65,7 +65,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin/blob/main/output/output-no2.png)
+![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin/blob/main/modul2/output/output-no2.png)
 Program tersebut digunakan untuk memeriksa apakah urutan warna pada empat gelas reaksi sesuai dengan ketentuan yaitu merah, kuning, hijau, dan ungu. Program meminta pengguna memasukkan empat warna pada setiap percobaan yang dilakukan sebanyak lima kali menggunakan perulangan. Setiap input percobaan yang dimasukkan kemudian dibandingkan dengan urutan warna yang benar. Jika semua percobaan sesuai, maka program menampilkan BERHASIL: true, tetapi jika ada satu percobaan yang tidak sesuai maka hasilnya BERHASIL: false.
 
 
@@ -110,6 +110,6 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin/blob/main/output/output-no3.png)
+![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin/blob/main/modul2/output/output-no3.png)
 Program tersebut digunakan untuk menentukan biaya pengiriman paket berdasarkan beratnya. Dengan cara memecah berat total paket menjadi dua bagian utama yaitu ada berat kilogram utuh dan sisa gram yang kurang dari 1 kilogram. Awalnya, cara kerja program akan meminta untuk memasukkan berat total paket, semuanya dalam satuan gram. Dalam proses penentuan biaya pokok (kilogram) dengan menghitung berapa biaya dasar untuk berat utuh dalam kilogram. Misalnya, ketika dimasukkan berat total paket 8500 gram, maka kita akan mendapatkan berat utuh dalam kilogram sebesar 8 kilogram, ibaratkan setiap kilogram kita dikenakan biaya Rp 10.000. Jadi, jika paket 8 kilogram, biaya dasarnya langsung dihitung menjadi Rp 80.000. Dengan berat sisa 500 gram, makan kita melakukan penentuan biaya tambahan (gram sisa). Biaya tambahan ini untuk menghitung sisa gram yang kurang dari 1 kilogram. Dengan catatan jika ternyata berat utuh paket mencapai 10 kilogram atau lebih, secara otomatis akan diberikan diskon penuh pada sisa gramnya. Artinya, sisa gram itu dianggap gratis, sehingga biaya tambahannya menjadi nol. Tetapi jika paket kurang dari 10 kilogram, maka akan dihitung jumlah sisa gramnya. Nah apabila sisa gram nya sedikit (di bawah 500 gram) biayanya akan lebih mahal, yaitu sebesar Rp. 15 per gram. Sedangkan jika sisa gram nya banyak (500 gram ke atas) biayanya akan lebih murah, hanya Rp 5 per gram. Karena berat sisa yang dijelasin sebelumnya 500 gram maka
 kita dikenakan biaya sebesar Rp. 2.500. Sehingga total harga menjadi Rp. 82.500.
