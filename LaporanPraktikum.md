@@ -34,5 +34,5 @@ var (
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn/blob/main/modul1/output/output-soal1.png)
-[penjelasan]
+![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin/blob/main/MODUL 2/output/output-no1.png)
+Program tersebut digunakan untuk menerima tiga input string dari pengguna, kemudian menampilkan urutan nilai sebelum dan sesudah dilakukan pertukaran. Nilai dari variabel satu, dua, dan tiga ditukar menggunakan variabel sementara temp. Proses pertukaran nilai variabel dengan cara memindahkan nilai variabel satu ke variabel temp, kemudian nilai variabel dua dipindahkan ke variabel satu, nilai variabel tiga dipindahkan ke variabel dua, dan nilai variabel yang disimpan di variabel temp dipindahkan ke variabel tiga. Proses ini menghasilkan perubahan urutan secara rotasi, sehingga nilai yang awalnya pertama menjadi terakhir. Program kemudian menampilkan hasil akhir setelah pertukaran nilai dilakukan.
